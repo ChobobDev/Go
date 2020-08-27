@@ -4,13 +4,12 @@ import "fmt"
 
 func main() {
 	x := 1
-	if x == 1 {
-		fmt.Println(" 1 이다 뷁")
-		x++
-	}
-
-	if x == 2 {
-		fmt.Println(" 2 이다 뷁")
+	for x < 100 {
+		if x%2 == 0 {
+			fmt.Printf("%d는 Even 이다 뷁\n", x)
+		} else {
+			fmt.Printf("%d는 Odd 이다 뷁\n", x)
+		}
 		x++
 	}
 
