@@ -6,5 +6,6 @@ import "fmt"
 
 func main() {
 	panic("Runtime Error")
-	fmt.Println("Hello 世界!")
+	fmt.Println("Hello 世界!") //이 부분은 출력되지 않음
+
 }
